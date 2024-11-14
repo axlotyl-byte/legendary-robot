@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delivery Information</title>
+    <link rel="stylesheet" href="bootstrap-5.0.2-dist/css/bootstrap.min.css"> <!-- Link to Bootstrap CSS -->
+    <link rel="stylesheet" href="styles.css"> <!-- Link to custom CSS if needed -->
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="images/LOGO.png" alt="Mama Vina's Cake" class="logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="cakes.html">Cakes</a></li>
+                    <li class="nav-item"><a class="nav-link" href="menu.html">Menu</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="delivering.html">Delivering</a></li>
+                    <li class="nav-item"><a class="nav-link" href="order.html">Order</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact us.html">Contact Us</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about-us.html">About Us</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section for Delivery -->
+    <header class="hero-section text-center text-white py-5" style="background: #6d98b5;">
+        <div class="container">
+            <h1>Delivery Information</h1>
+            <p>We deliver fresh cakes right to your doorstep!</p>
+        </div>
+    </header>
+
+    <!-- Delivery Options Section -->
+    <section id="delivery-options" class="py-5">
+        <div class="container text-center">
+            <h2>Our Delivery Options</h2>
+            <p>Choose from our flexible delivery options to suit your schedule.</p>
+            <div class="row">
+                <!-- Option 1 -->
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Standard Delivery</h5>
+                            <p class="card-text">Delivered within 3-5 business days.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Option 2 -->
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Express Delivery</h5>
+                            <p class="card-text">Delivered within 1-2 business days.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Option 3 -->
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Same-Day Delivery</h5>
+                            <p class="card-text">Order by 10 AM for same-day delivery.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQs Section -->
+    <section id="faqs" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center">Frequently Asked Questions</h2>
+            <div class="accordion" id="faqAccordion">
+                <!-- FAQ 1 -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingOne">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            What are the delivery charges?
+                        </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                        data-bs-parent="#faqAccordion">
+                        <div class="accordion-body">
+                            Delivery charges vary based on location and delivery speed. Please check during checkout for
+                            exact fees.
+                        </div>
+                    </div>
+                </div>
+                <!-- FAQ 2 -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            Do you deliver outside the city?
+                        </button>
+                    </h2>
+                    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                        data-bs-parent="#faqAccordion">
+                        <div class="accordion-body">
+                            Yes, we deliver to nearby areas outside the city with additional delivery fees. Contact us
+                            for specific locations.
+                        </div>
+                    </div>
+                </div>
+                <!-- FAQ 3 -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            Can I schedule a delivery time?
+                        </button>
+                    </h2>
+                    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                        data-bs-parent="#faqAccordion">
+                        <div class="accordion-body">
+                            Yes, you can schedule a specific delivery time at checkout. Additional fees may apply for
+                            timed deliveries.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Form Section -->
+    <section id="contact" class="py-5">
+        <div class="container">
+            <h2 class="text-center">Have More Questions?</h2>
+            <p class="text-center">Feel free to reach out to our customer support team for more information.</p>
+            <form class="row g-3">
+                <div class="col-md-6">
+                    <input type="text" class="form-control" placeholder="Name" required>
+                </div>
+                <div class="col-md-6">
+                    <input type="email" class="form-control" placeholder="Email" required>
+                </div>
+                <div class="col-12">
+                    <textarea class="form-control" placeholder="Your Question" rows="4" required></textarea>
+                </div>
+                <div class="col-12 text-center">
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-4">
+        <div class="container">
+            <p>&copy; 2024 Cake Store. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Optional JavaScript; include Bootstrap's JavaScript bundle -->
+    <script src="bootstrap-5.0.2-dist/js/bootstrap.bundle.min.js"></script>
+    <script src="scripts.js"></script>
+</body>
+
+</html>
