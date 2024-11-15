@@ -55,3 +55,8 @@ h2 {
 footer {
     margin-top: 20px;
 }
+.small-img {
+        max-width: 300px; /* Adjust size */
+        height: auto; /* Maintain aspect ratio */
+    }
+
